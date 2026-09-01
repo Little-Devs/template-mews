@@ -1,0 +1,15 @@
+---
+import { site } from '../data/site';
+const { rooms } = site;
+---
+<section class="wrap section" id="rooms">
+  <div class="section-head"><p class="kicker">{rooms.kicker}</p><h2>{rooms.title}</h2></div>
+  <div class="room-grid">
+    {rooms.items.map((item) => (
+      <article class="room-card">
+        <div class={`room-media ${item.tone}`}></div>
+        <div class="room-body"><h3>{item.title}</h3><p>{item.note}</p></div>
+      </article>
+    ))}
+  </div>
+</section>

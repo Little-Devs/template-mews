@@ -1,0 +1,86 @@
+{
+  "id": "mews",
+  "name": "Mews House",
+  "description": "Heritage townhouse and mews estate landing. Deep teal, cream, Art Deco condensed type. Light-custom: logo, colours, fonts, copy, and section on/off. Demo copy is generic.",
+  "category": "landing-page",
+  "subcategory": "estate",
+  "repository": "https://github.com/Little-Devs/template-mews",
+  "demoUrl": "https://mews.little.website/",
+  "previewImage": "",
+  "techStack": {
+    "framework": "Astro",
+    "version": "5.17.1",
+    "styling": "CSS variables",
+    "scripting": "TypeScript",
+    "buildTool": "Vite"
+  },
+  "features": [
+    "Heritage townhouse and mews estate landing",
+    "Light-custom: logo, colours, fonts, and copy",
+    "Section on/off for hero, house, rooms, grounds, visit, and contact",
+    "Deep teal, cream, and peach Art Deco palette",
+    "Condensed display type (Oswald)",
+    "Generic demo copy",
+    "Fully responsive Astro SSG"
+  ],
+  "aesthetic": {
+    "style": "Art Deco heritage townhouse",
+    "description": "Heritage townhouse and mews estate landing",
+    "fonts": {
+      "display": "Oswald",
+      "ui": "Space Grotesk",
+      "sans": "Space Grotesk",
+      "primary": "Oswald"
+    },
+    "colors": {
+      "primary": "#003A4E",
+      "primaryName": "Deep teal",
+      "accent": "#FFBC7D",
+      "accentName": "Peach",
+      "background": "#FBDDB9",
+      "backgroundName": "Cream",
+      "deep": "#003A4E",
+      "cream": "#FBDDB9",
+      "sand": "#F1E2CE",
+      "peach": "#FFBC7D"
+    }
+  },
+  "sections": [
+    "Hero",
+    "House",
+    "Rooms",
+    "Grounds",
+    "Visit",
+    "Contact"
+  ],
+  "useCases": [
+    "Heritage estates",
+    "Townhouse listings",
+    "Boutique venues",
+    "Historic properties"
+  ],
+  "customization": {
+    "difficulty": "easy",
+    "colorScheme": "CSS variables",
+    "typography": "Google Fonts (Oswald, Space Grotesk)",
+    "layout": "CSS Grid + Flexbox"
+  },
+  "performance": {
+    "framework": "Astro (SSG)",
+    "cssOnly": "Most animations",
+    "lighthouse": "90+"
+  },
+  "license": "MIT",
+  "author": "Little-Devs",
+  "createdAt": "2026-09-01",
+  "lastUpdated": "2026-09-01",
+  "tags": [
+    "landing-page",
+    "estate",
+    "townhouse",
+    "heritage",
+    "astro",
+    "ssg"
+  ],
+  "version": "1.0.0"
+}

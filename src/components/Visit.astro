@@ -1,0 +1,8 @@
+---
+import { site } from '../data/site';
+const { visit } = site;
+---
+<section class="wrap section" id="visit">
+  <div class="section-head"><p class="kicker">{visit.kicker}</p><h2>{visit.title}</h2></div>
+  <ul class="hours">{visit.rows.map((row) => <li><span>{row.day}</span><span>{row.time}</span></li>)}</ul>
+</section>

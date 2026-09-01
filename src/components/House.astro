@@ -1,0 +1,15 @@
+---
+import { site } from '../data/site';
+const { house } = site;
+---
+<section class="wrap section" id="house">
+  <div class="house">
+    <div>
+      <p class="kicker">{house.kicker}</p>
+      <h2>{house.title}</h2>
+      <p>{house.manifesto}</p>
+      <ul class="house-list">{house.points.map((p) => <li>{p}</li>)}</ul>
+    </div>
+    <div class="diamond" aria-hidden="true"></div>
+  </div>
+</section>
