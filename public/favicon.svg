@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mews House">
+  <rect width="64" height="64" fill="#003A4E"/>
+  <path d="M10 48 L32 16 L54 48" fill="none" stroke="#FBDDB9" stroke-width="2"/>
+  <rect x="22" y="32" width="20" height="16" fill="none" stroke="#FFBC7D" stroke-width="1.5"/>
+</svg>

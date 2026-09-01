@@ -1,0 +1,19 @@
+---
+import { site } from '../data/site';
+const { contact, logo } = site;
+---
+<section class="wrap section" id="contact">
+  <div class="contact">
+    <div>
+      <p class="kicker">Enquire</p>
+      <h2>Write for a viewing. No portal, no lockbox.</h2>
+      <p>Lorem ipsum dolor sit amet. Name, preferred day, and how many will walk through.</p>
+      <address class="address">{logo.text}<br />{contact.address}<br />{contact.phone}</address>
+      <a class="btn" href={`mailto:${contact.email}?subject=Mews%20House%20viewing`}>{contact.email}</a>
+    </div>
+    <div>
+      <p class="kicker">Note</p>
+      <p>Demo copy only. Original venue branding has been removed.</p>
+    </div>
+  </div>
+</section>
